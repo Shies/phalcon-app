@@ -1,0 +1,50 @@
+[Wed, 27 May 15 17:11:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 17:11:11 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 17:11:11 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = '' LIMIT 1
+[Wed, 27 May 15 17:11:11 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = '' AND `wj_users`.`pass` = '' LIMIT 1
+[Wed, 27 May 15 17:19:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 17:19:50 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 17:19:50 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = '' LIMIT 1
+[Wed, 27 May 15 17:19:50 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = '' AND `wj_users`.`pass` = '' LIMIT 1
+[Wed, 27 May 15 17:35:31 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 17:35:31 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 17:35:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'r  oot  ' LIMIT 1
+[Wed, 27 May 15 17:36:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 17:36:46 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 17:36:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:11:32 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 18:11:32 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 18:11:32 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:11:32 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'root' LIMIT 1
+[Wed, 27 May 15 18:12:33 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 18:12:33 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 18:12:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:12:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'root' LIMIT 1
+[Wed, 27 May 15 18:12:37 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 18:12:37 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 18:12:37 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:12:37 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'root' LIMIT 1
+[Wed, 27 May 15 18:13:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 18:13:08 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 18:13:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:13:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'root' LIMIT 1
+[Wed, 27 May 15 18:13:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 18:13:14 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 18:13:14 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:13:14 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'root' LIMIT 1
+[Wed, 27 May 15 18:14:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 18:14:42 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 18:14:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 18:14:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'root' LIMIT 1
+[Wed, 27 May 15 20:08:13 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 20:08:13 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 20:08:13 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 20:08:13 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Wed, 27 May 15 20:08:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 20:08:17 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 20:08:17 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 20:08:17 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Wed, 27 May 15 20:08:25 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Wed, 27 May 15 20:08:25 +0800][INFO] DESCRIBE `wj_users`
+[Wed, 27 May 15 20:08:25 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Wed, 27 May 15 20:08:25 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1

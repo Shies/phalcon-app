@@ -1,0 +1,73 @@
+[Fri, 05 Jun 15 11:26:51 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:26:51 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:26:51 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'r  oot  ' LIMIT 1
+[Fri, 05 Jun 15 11:26:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:26:56 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:26:56 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Fri, 05 Jun 15 11:26:56 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Fri, 05 Jun 15 11:26:59 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:26:59 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:26:59 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Fri, 05 Jun 15 11:26:59 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Fri, 05 Jun 15 11:27:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:01 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Fri, 05 Jun 15 11:27:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Fri, 05 Jun 15 11:27:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:08 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Fri, 05 Jun 15 11:27:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Fri, 05 Jun 15 11:27:12 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:12 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:12 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:20 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:20 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:20 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:20 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:20 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:20 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:27 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:27 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:27 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:27 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:31 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:31 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:31 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:31 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:34 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 11:27:34 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 11:27:34 +0800][INFO] DESCRIBE `wj_users`
+[Fri, 05 Jun 15 11:27:34 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:34 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Fri, 05 Jun 15 11:27:34 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 16:59:03 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Fri, 05 Jun 15 19:49:25 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 19:49:25 +0800][INFO] DESCRIBE `wj_comment`
+[Fri, 05 Jun 15 19:55:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 19:55:46 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 19:55:46 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[Fri, 05 Jun 15 19:56:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 19:56:01 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 19:56:01 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[Fri, 05 Jun 15 20:18:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 20:18:45 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 20:18:45 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[Fri, 05 Jun 15 20:18:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 20:18:47 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 20:18:47 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[Fri, 05 Jun 15 20:18:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 20:18:47 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 20:18:47 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[Fri, 05 Jun 15 20:18:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 20:18:49 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 20:18:49 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[Fri, 05 Jun 15 20:18:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 05 Jun 15 20:18:50 +0800][INFO] DESCRIBE `wj_badword`
+[Fri, 05 Jun 15 20:18:51 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10

@@ -1,0 +1,609 @@
+[Tue, 02 Jun 15 09:56:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 09:56:46 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 09:56:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Tue, 02 Jun 15 09:56:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Tue, 02 Jun 15 09:56:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 09:56:50 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 09:56:50 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' LIMIT 1
+[Tue, 02 Jun 15 09:56:50 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name`, `wj_users`.`pass` AS `pass` FROM wj_users WHERE `wj_users`.`name` = 'root' AND `wj_users`.`pass` = 'b9be11166d72e9e3ae7fd407165e4bd2' LIMIT 1
+[Tue, 02 Jun 15 09:56:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 09:56:54 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 09:56:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 09:58:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 09:58:42 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 09:58:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:01:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:01:36 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:01:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:04:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:04:42 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:04:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:07:31 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:07:31 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:07:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:07:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:07:31 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1
+[Tue, 02 Jun 15 10:15:57 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:15:57 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:15:57 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:15:57 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:15:57 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1
+[Tue, 02 Jun 15 10:18:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:18:08 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:18:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:18:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:18:08 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1
+[Tue, 02 Jun 15 10:20:33 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:20:33 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:20:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:20:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:20:33 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1
+[Tue, 02 Jun 15 10:20:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:20:36 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:20:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:20:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:20:36 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1
+[Tue, 02 Jun 15 10:20:38 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:20:38 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:20:38 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id`
+[Tue, 02 Jun 15 10:20:38 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:20:38 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1
+[Tue, 02 Jun 15 10:23:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:23:45 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:23:45 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:45 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:45 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 10:23:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:23:46 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:23:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:46 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 10:23:48 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:23:48 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:23:48 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:48 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 10:23:48 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 10:23:51 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:23:51 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:23:51 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:51 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 10:23:51 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 10:23:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:23:56 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:23:56 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:56 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:56 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 10:23:58 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:23:58 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:23:58 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:58 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:23:58 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 10:32:06 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:32:06 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:32:06 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:32:06 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:32:06 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:32:07 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:32:07 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:32:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:32:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:32:07 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:32:09 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:32:09 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:32:09 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:32:09 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 110
+[Tue, 02 Jun 15 10:32:09 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:32:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:32:16 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:32:16 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:32:16 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 110
+[Tue, 02 Jun 15 10:32:16 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:32:22 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:32:22 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:32:22 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:32:22 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 10:32:22 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:32:23 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:32:23 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:32:23 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:32:23 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 10:32:23 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:49:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:49:01 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:49:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:49:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 10:49:01 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 10:49:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 10:49:03 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 10:49:03 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 10:49:03 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 10:49:03 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:02:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:02:18 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:02:18 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:02:18 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:02:18 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:03:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:03:36 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:03:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:03:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:03:36 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:03:38 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:03:38 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:03:38 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:03:38 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:03:38 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:03:39 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:03:39 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:03:39 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:03:39 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:03:39 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:03:48 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:03:48 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:03:48 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:03:48 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 12312
+[Tue, 02 Jun 15 11:03:48 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:03:52 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:03:52 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:03:52 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:03:52 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:03:52 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:06:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:06:11 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:06:11 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:06:11 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:06:11 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:30:52 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:30:52 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:30:52 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:30:52 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:30:52 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:30:53 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:30:53 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:30:53 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:30:53 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:30:53 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:30:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:30:55 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:30:55 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:30:55 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:30:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:32:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:32:01 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:32:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:33:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:33:05 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:33:05 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:33:05 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:33:05 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0 OFFSET 1
+[Tue, 02 Jun 15 11:33:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:33:42 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:33:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:33:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:33:42 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 11:34:48 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:34:48 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:34:48 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 11:34:48 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:34:48 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 11:45:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:45:19 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:45:19 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:45:19 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:45:19 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 11:46:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:46:49 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:46:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:47:41 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:47:41 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:47:41 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:47:41 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:47:41 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 11:47:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:47:46 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:47:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:47:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 11:47:46 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 11:47:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:47:49 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:47:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:47:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:47:49 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:48:41 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 11:48:41 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 11:48:41 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:48:41 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 11:48:41 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:10:31 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:10:31 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:10:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:10:31 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:10:31 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:10:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:10:46 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:10:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:10:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:10:46 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:12:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:12:08 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:12:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:12:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:12:08 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:12:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:12:12 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:12:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:12:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:12:12 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:12:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:12:17 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:12:17 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:12:17 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:12:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:12:25 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:12:25 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:12:25 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:12:25 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:12:25 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:13:26 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:13:26 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:13:26 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:13:26 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:13:26 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:13:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:13:28 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:13:28 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:13:28 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:13:28 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:13:32 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:13:32 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:13:32 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:13:32 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:13:32 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:17:07 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:17:07 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:17:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1311
+[Tue, 02 Jun 15 13:17:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1311
+[Tue, 02 Jun 15 13:17:07 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1311
+[Tue, 02 Jun 15 13:21:15 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:21:15 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:21:15 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1311
+[Tue, 02 Jun 15 13:21:15 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1311
+[Tue, 02 Jun 15 13:21:15 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1311
+[Tue, 02 Jun 15 13:21:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:21:18 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:21:18 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:18 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:18 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:21:23 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:21:23 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:21:23 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:23 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:23 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:21:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:21:27 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:21:27 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:27 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:21:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:21:30 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:21:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:21:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:22:38 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:22:38 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:22:38 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:22:38 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:22:38 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:22:39 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:22:39 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:22:39 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:22:39 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:22:39 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:22:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:22:42 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:22:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:22:42 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:22:42 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:22:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:22:56 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:22:56 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:23:15 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:23:15 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:23:15 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:23:15 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:23:15 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:25:04 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:25:04 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:25:04 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:25:04 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:25:04 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:25:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:25:05 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:25:05 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:25:05 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:25:05 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:25:08 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:25:08 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:25:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:25:08 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 13:25:08 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 13:25:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:25:12 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:25:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 455
+[Tue, 02 Jun 15 13:25:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 455
+[Tue, 02 Jun 15 13:25:12 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 455
+[Tue, 02 Jun 15 13:25:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:25:17 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:25:17 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 2
+[Tue, 02 Jun 15 13:25:17 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 2
+[Tue, 02 Jun 15 13:25:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 2
+[Tue, 02 Jun 15 13:25:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 13:25:19 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 13:25:19 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:25:19 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 13:25:19 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:01:29 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:01:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:01:29 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:01:29 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 14:01:29 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 14:01:29 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 14:01:30 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:01:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:01:30 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:01:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 14:01:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 14:01:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 14:01:33 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:01:33 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:01:33 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:01:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 14:01:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 0
+[Tue, 02 Jun 15 14:01:33 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 0
+[Tue, 02 Jun 15 14:01:48 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:03:03 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:44 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:44 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:44 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:44 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:44 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:44 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:46 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:46 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:46 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:47 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:47 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:47 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:47 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:47 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:49 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:49 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:49 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:51 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:51 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:51 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:51 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:51 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:51 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:54 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:54 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:54 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:08:57 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:08:57 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:08:57 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:08:57 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:57 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:08:57 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:00 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:00 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:00 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:00 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:00 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:00 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:02 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:02 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:02 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:02 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:02 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:02 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:10 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:10 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:10 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:10 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:10 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:15 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:15 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:15 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:15 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:15 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:15 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:18 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:18 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:18 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:18 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:18 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:24 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:24 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:24 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:24 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:24 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:24 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:30 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:30 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:33 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:33 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:33 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:33 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:33 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:09:35 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:09:35 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:09:35 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:09:35 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:35 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:09:35 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:10:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:10:54 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:10:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:10:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:10:54 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:10:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:10:55 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:10:55 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:10:55 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:10:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:11:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:11:01 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:11:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:01 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:01 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:11:02 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:11:02 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:11:02 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:02 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:02 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:11:07 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:11:07 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:11:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:07 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:11:11 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:11:11 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:11:11 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:11 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:11 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:11:13 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:11:13 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:11:13 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:13 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:11:13 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:45 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:45 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:13:45 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:13:45 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:45 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:45 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:46 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:13:46 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:13:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:46 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:46 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:49 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:13:49 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:13:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:49 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:49 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:52 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:52 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:13:52 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:13:52 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:52 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:52 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:54 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:13:54 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:13:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:54 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:54 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:13:58 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:13:58 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:13:58 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:13:58 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:13:58 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:13:58 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:04 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:04 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:04 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:04 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:04 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:04 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:07 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:07 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:07 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:07 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:07 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:10 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:10 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:10 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:10 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:10 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:10 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:12 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:12 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:12 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:12 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:14 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:14 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:14 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:14 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:14 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:20 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:20 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:20 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:20 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:20 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:14:20 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:23 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:23 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:23 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:23 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:23 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:23 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:24 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:24 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:24 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:24 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:24 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:24 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:25 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:14:25 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:14:25 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:14:25 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:25 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:14:25 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:15:30 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:15:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:15:30 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:15:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:15:30 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:15:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1 OFFSET 1
+[Tue, 02 Jun 15 14:15:36 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:15:36 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:15:36 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:15:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:15:36 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:15:36 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:15:47 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:15:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:15:47 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:15:47 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:15:47 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:15:47 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:25:13 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_users WHERE 1 = 1 LIMIT 1
+[Tue, 02 Jun 15 14:25:13 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_users' AND `TABLE_SCHEMA` = DATABASE()
+[Tue, 02 Jun 15 14:25:13 +0800][INFO] DESCRIBE `wj_users`
+[Tue, 02 Jun 15 14:25:13 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:25:13 +0800][INFO] SELECT `wj_users`.`id` AS `id`, `wj_users`.`name` AS `name` FROM wj_users WHERE 1 = 1 ORDER BY `wj_users`.`id` LIMIT 1
+[Tue, 02 Jun 15 14:25:13 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_users WHERE 1 = 1 LIMIT 1

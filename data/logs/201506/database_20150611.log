@@ -1,0 +1,559 @@
+[2015-06-11 19:03:03 +0800][INFO] 
+[2015-06-11 19:03:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:03 +0800][INFO] DESCRIBE `wj_badword`
+[2015-06-11 19:03:03 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[2015-06-11 19:03:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:03 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:03 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 5 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:03 +0800][INFO] 
+[2015-06-11 19:03:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:03 +0800][INFO] DESCRIBE `wj_badword`
+[2015-06-11 19:03:03 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[2015-06-11 19:03:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:03 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:03 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 4 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:03 +0800][INFO] 
+[2015-06-11 19:03:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_badword' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:03 +0800][INFO] DESCRIBE `wj_badword`
+[2015-06-11 19:03:03 +0800][INFO] SELECT `wj_badword`.`badid`, `wj_badword`.`badword`, `wj_badword`.`level`, `wj_badword`.`replaceword`, `wj_badword`.`lastusetime`, `wj_badword`.`listorder` FROM wj_badword WHERE 1 = 1 ORDER BY `wj_badword`.`badid` LIMIT 10
+[2015-06-11 19:03:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:03 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:03 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 3 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:05 +0800][INFO] 
+[2015-06-11 19:03:05 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:05 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:05 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:03:05 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:03:05 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:03:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:05 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:05 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 4 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:12 +0800][INFO] 
+[2015-06-11 19:03:12 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:12 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:12 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:12 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:12 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:12 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:12 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 14 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:16 +0800][INFO] 
+[2015-06-11 19:03:16 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:16 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:16 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 3 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:16 +0800][INFO] 
+[2015-06-11 19:03:16 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:16 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:16 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 6 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:16 +0800][INFO] 
+[2015-06-11 19:03:16 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:16 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:16 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:16 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:16 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 6 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] 
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 15 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] 
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] 
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] 
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 1 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] 
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:17 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:17 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 12 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:46 +0800][INFO] 
+[2015-06-11 19:03:46 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:46 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:46 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:03:46 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:03:46 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:03:46 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:46 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:46 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 9 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:48 +0800][INFO] 
+[2015-06-11 19:03:48 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:48 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:48 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:48 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:48 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:48 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:48 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:48 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:48 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 4 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:50 +0800][INFO] 
+[2015-06-11 19:03:50 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:50 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:50 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:03:50 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:03:50 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:03:50 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:50 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:50 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 6 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:03:56 +0800][INFO] 
+[2015-06-11 19:03:56 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:03:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:56 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:03:56 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:56 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:03:56 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:03:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:03:56 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:03:56 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:04:12 +0800][INFO] 
+[2015-06-11 19:04:12 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:04:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:12 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:04:12 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:12 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:12 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:04:12 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:12 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:04:12 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 14 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:04:14 +0800][INFO] 
+[2015-06-11 19:04:14 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:04:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:14 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:04:14 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:04:14 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:04:14 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:04:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:14 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:04:14 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 8 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:04:17 +0800][INFO] 
+[2015-06-11 19:04:17 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:04:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:17 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:04:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:04:17 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:04:17 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:04:17 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:17 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:04:17 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 3 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:04:18 +0800][INFO] 
+[2015-06-11 19:04:18 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:04:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:18 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:04:18 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:18 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:18 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:04:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:18 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:04:18 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:04:19 +0800][INFO] 
+[2015-06-11 19:04:19 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:04:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:19 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:04:19 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:19 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:19 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:04:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:19 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:04:19 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 7 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:04:21 +0800][INFO] 
+[2015-06-11 19:04:21 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:04:21 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:21 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:04:21 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:21 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:04:21 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:04:21 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:04:21 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:04:21 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 8 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:07:55 +0800][INFO] 
+[2015-06-11 19:07:55 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:07:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:55 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:55 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 12 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:07:55 +0800][INFO] 
+[2015-06-11 19:07:55 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:07:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:55 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:55 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 10 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:07:55 +0800][INFO] 
+[2015-06-11 19:07:55 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:07:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:55 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:07:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:55 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:07:55 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 15 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:07:56 +0800][INFO] 
+[2015-06-11 19:07:56 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:07:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:56 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:07:56 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:56 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:56 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:07:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:56 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:07:56 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 2 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:07:56 +0800][INFO] 
+[2015-06-11 19:07:56 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:07:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:56 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:07:56 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:56 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:07:56 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:07:56 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:07:56 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:07:56 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 4 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:08:07 +0800][INFO] 
+[2015-06-11 19:13:42 +0800][INFO] 
+[2015-06-11 19:13:42 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:13:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:13:42 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:13:42 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:13:42 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:13:42 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:13:42 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:13:42 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:13:42 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:13:44 +0800][INFO] 
+[2015-06-11 19:14:06 +0800][INFO] 
+[2015-06-11 19:14:06 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:14:06 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:14:06 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:14:06 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:14:06 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:14:06 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:14:06 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:14:06 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:14:06 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:14:08 +0800][INFO] 
+[2015-06-11 19:26:20 +0800][INFO] 
+[2015-06-11 19:26:20 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:26:20 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:26:20 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:26:20 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:26:20 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:26:20 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:26:20 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:26:20 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:26:20 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 6 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:26:21 +0800][INFO] 
+[2015-06-11 19:34:40 +0800][INFO] 
+[2015-06-11 19:34:40 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:34:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:34:40 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:34:40 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:34:40 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:34:40 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:34:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:34:40 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:34:40 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:34:42 +0800][INFO] 
+[2015-06-11 19:35:27 +0800][INFO] 
+[2015-06-11 19:35:27 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:35:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:35:27 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:35:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:35:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:35:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:35:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:35:27 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:35:27 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 2 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:35:28 +0800][INFO] 
+[2015-06-11 19:36:54 +0800][INFO] 
+[2015-06-11 19:36:54 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:36:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:36:54 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:36:54 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:36:54 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:36:54 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:36:54 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:36:54 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:36:54 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 10 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:36:55 +0800][INFO] 
+[2015-06-11 19:36:55 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:36:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:36:55 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:36:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:36:55 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:36:55 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:36:55 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:36:55 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:36:55 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 10 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:36:56 +0800][INFO] 
+[2015-06-11 19:46:05 +0800][INFO] 
+[2015-06-11 19:46:05 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:05 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:05 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:05 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:05 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:05 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:05 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:05 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:14 +0800][INFO] 
+[2015-06-11 19:46:14 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:14 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:14 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:46:14 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10 OFFSET 10
+[2015-06-11 19:46:14 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10 OFFSET 10
+[2015-06-11 19:46:14 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:14 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:14 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:15 +0800][INFO] 
+[2015-06-11 19:46:15 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:15 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:15 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:15 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:15 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:15 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:15 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:15 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:15 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:18 +0800][INFO] 
+[2015-06-11 19:46:18 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:18 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:18 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:18 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:18 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:18 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:18 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:21 +0800][INFO] 
+[2015-06-11 19:46:25 +0800][INFO] 
+[2015-06-11 19:46:25 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:25 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:25 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:25 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:25 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:25 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:25 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:25 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:25 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 12 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:26 +0800][INFO] 
+[2015-06-11 19:46:26 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:26 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:26 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:26 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:26 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:26 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:26 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:26 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:26 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] 
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 7 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] 
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 5 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] 
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 7 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] 
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:27 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:27 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:27 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 9 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] 
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] 
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 3 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] 
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] 
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 3 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] 
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:28 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:28 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:28 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 11 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:29 +0800][INFO] 
+[2015-06-11 19:46:29 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:29 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:29 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 4 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:29 +0800][INFO] 
+[2015-06-11 19:46:29 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:29 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:29 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 14 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:29 +0800][INFO] 
+[2015-06-11 19:46:29 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:29 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:29 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:29 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:29 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 9 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:30 +0800][INFO] 
+[2015-06-11 19:46:30 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:30 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:30 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 13 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:30 +0800][INFO] 
+[2015-06-11 19:46:30 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:30 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:30 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 7 ORDER BY `wj_news`.`id` LIMIT 1
+[2015-06-11 19:46:30 +0800][INFO] 
+[2015-06-11 19:46:30 +0800][INFO] SELECT COUNT(*) AS `total` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 1
+[2015-06-11 19:46:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_comment_data_1' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:30 +0800][INFO] DESCRIBE `wj_comment_data_1`
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_comment_data_1`.`username` AS `username`, `wj_comment_data_1`.`creat_at` AS `creat_at`, `wj_comment_data_1`.`ip` AS `ip`, `wj_comment_data_1`.`status` AS `status`, `wj_comment_data_1`.`content` AS `content` FROM wj_comment_data_1 WHERE 1 = 1 ORDER BY `wj_comment_data_1`.`id` LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT COUNT(*) AS `rowcount` FROM wj_comment_data_1 WHERE 1 = 1 LIMIT 10
+[2015-06-11 19:46:30 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'wj_news' AND `TABLE_SCHEMA` = DATABASE()
+[2015-06-11 19:46:30 +0800][INFO] DESCRIBE `wj_news`
+[2015-06-11 19:46:30 +0800][INFO] SELECT `wj_news`.`id` AS `id`, `wj_news`.`title` AS `title`, `wj_news`.`thumb` AS `thumb` FROM wj_news WHERE `wj_news`.`id` = 14 ORDER BY `wj_news`.`id` LIMIT 1
