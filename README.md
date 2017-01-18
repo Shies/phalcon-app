@@ -1,2 +1,2 @@
-# pro-phalcon
-This's a use phalcon framework write project for php
+# app-phalcon
+High-performance modular program USES phalcon framework.
